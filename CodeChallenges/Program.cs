@@ -48,6 +48,22 @@ internal class Program
                 challenge = new NomeTrocado();
                 challenge.Execute();
                 break;
+                case "10":
+                challenge = new MenorQueCem();
+                challenge.Execute();
+                break;
+                case "11":
+                challenge = new DivisaoPorCinco();
+                challenge.Execute();
+                break;
+                case "12":
+                challenge = new ReceitaDeLasanha();
+                challenge.Execute();
+                break;
+                case "13":
+                challenge = new RPG();
+                challenge.Execute();
+                break;
 
             default:
                 break;

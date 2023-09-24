@@ -22,6 +22,10 @@ namespace CodeChallenges
             Console.WriteLine("7 - Numero dos Meses");
             Console.WriteLine("8 - Quantas vogais existem?");
             Console.WriteLine("9 - Nome trocado");
+            Console.WriteLine("10 - É menor que 100?");
+            Console.WriteLine("11 - Verifique se um número é divisivel por 5");
+            Console.WriteLine("12 - Receita de Lasanha");
+            Console.WriteLine("13 - O RPG de Annalyn");
         }
     }
 }
