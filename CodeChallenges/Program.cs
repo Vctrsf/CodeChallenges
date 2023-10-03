@@ -84,6 +84,10 @@ internal class Program
                 challenge = new HorasMinutosEmSegundos();
                 challenge.Execute();
                 break;
+                case "19":
+                challenge = new CookiesELeite();
+                challenge.Execute();
+                break;
                 
 
             default:

@@ -31,6 +31,7 @@ namespace CodeChallenges
             Console.WriteLine("16 - Pontos de Futebol");
             Console.WriteLine("17 - Primeiro Item do Array");
             Console.WriteLine("18 - Horas e Minutos em Segundos");
+            Console.WriteLine("19 - Cookies e Leite");
             
         }
     }
