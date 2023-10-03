@@ -64,6 +64,27 @@ internal class Program
                 challenge = new RPG();
                 challenge.Execute();
                 break;
+                case "14":
+                challenge = new CalculadorDePotencia();
+                challenge.Execute();
+                break;
+                case "15":
+                challenge = new BoasVindas();
+                challenge.Execute();
+                break;
+                case "16":
+                challenge = new Gols();
+                challenge.Execute();
+                break;
+                case "17":
+                challenge = new ItemArray();
+                challenge.Execute();
+                break;
+                case "18":
+                challenge = new HorasMinutosEmSegundos();
+                challenge.Execute();
+                break;
+                
 
             default:
                 break;

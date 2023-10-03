@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Channels;
@@ -116,23 +117,23 @@ O prisioneiro pode ser liberto?: ");
 
         public static bool CanFreePrisoner(bool knightIsAwake, bool archerIsAwake, bool prisonerIsAwake, bool petDogIsPresent)
         {
-            bool resultado = true;
-            if (petDogIsPresent == true && archerIsAwake == true && knightIsAwake == true && prisonerIsAwake == true)
+            if (petDogIsPresent)
             {
-                return true;
+                return !archerIsAwake;
             }
             else
             {
-                if (prisonerIsAwake == true && archerIsAwake == false && knightIsAwake == false)
+                if (prisonerIsAwake)
                 {
-                    return true;
+                    return !knightIsAwake && !archerIsAwake;
                 }
                 else
                 {
                     return false;
                 }
             }
-            return resultado;
         }
     }
 }
+
+

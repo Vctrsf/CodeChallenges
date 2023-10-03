@@ -31,11 +31,11 @@ Assume an input is given.
 input: ");
     }
 
-    public static string GiveMeSomething(string a)
-    {
+        public static string GiveMeSomething(string a)
+        {
         string resultado = "something " + a; 
         return resultado;
-    }
+        }
 
     }
 }
