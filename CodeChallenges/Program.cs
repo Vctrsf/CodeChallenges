@@ -88,6 +88,18 @@ internal class Program
                 challenge = new CookiesELeite();
                 challenge.Execute();
                 break;
+                case "20":
+                challenge = new Concatenacao();
+                challenge.Execute();
+                break;
+                case "21":
+                challenge = new TotalDeCopos();
+                challenge.Execute();
+                break;
+                case "22":
+                challenge = new ImparOuPar();
+                challenge.Execute();
+                break;
                 
 
             default:

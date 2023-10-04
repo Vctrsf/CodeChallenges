@@ -32,6 +32,9 @@ namespace CodeChallenges
             Console.WriteLine("17 - Primeiro Item do Array");
             Console.WriteLine("18 - Horas e Minutos em Segundos");
             Console.WriteLine("19 - Cookies e Leite");
+            Console.WriteLine("20 - Concatenação");
+            Console.WriteLine("21 - Quantos Copos de Café");
+            Console.WriteLine("22 - Impar ou Par");
             
         }
     }
