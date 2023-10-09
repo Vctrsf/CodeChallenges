@@ -100,6 +100,18 @@ internal class Program
                 challenge = new ImparOuPar();
                 challenge.Execute();
                 break;
+                case "23":
+                challenge = new QtdeCaractere();
+                challenge.Execute();
+                break;
+                case "24":
+                challenge = new TamanhoDeUmNumero();
+                challenge.Execute();
+                break;
+                case "25":
+                challenge = new PedacosDeTorta();
+                challenge.Execute();
+                break;
                 
 
             default:

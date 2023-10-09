@@ -35,6 +35,10 @@ namespace CodeChallenges
             Console.WriteLine("20 - Concatenação");
             Console.WriteLine("21 - Quantos Copos de Café");
             Console.WriteLine("22 - Impar ou Par");
+            Console.WriteLine("23 - Quantidade de Carácteres");
+            Console.WriteLine("24 - Tamanho de um número");
+            Console.WriteLine("25 - Pedaços de torta");
+            Console.WriteLine("26 - Verifique um numero no array.");
             
         }
     }
