@@ -16,9 +16,11 @@ namespace CodeChallenges.Challenges
             var resultado1 = TotalCups(6);
             var resultado2 = TotalCups(12);
             var resultado3 = TotalCups(213);
+            var resultado4 = TotalCups(17);
             Console.WriteLine(resultado1);
             Console.WriteLine(resultado2);
             Console.WriteLine(resultado3);
+            Console.WriteLine(resultado4);
         }
 
         public void MostraExplicacao()

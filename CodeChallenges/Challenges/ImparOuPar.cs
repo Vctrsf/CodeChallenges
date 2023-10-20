@@ -14,7 +14,7 @@ namespace CodeChallenges.Challenges
             MostraExplicacao();
             var resultado1 = IsEvenOrOdd(3);
             var resultado2 = IsEvenOrOdd(146);
-            var resultado3 = IsEvenOrOdd(19);
+            var resultado3 = IsEvenOrOdd(-19);
             Console.WriteLine(resultado1);
             Console.WriteLine(resultado2);
             Console.WriteLine(resultado3);
@@ -49,17 +49,7 @@ input: ");
             }
             else
             {
-                if (num % 2 == 1)
-                {
                     resultado = "odd";
-                }
-                /*else
-                {
-                    if (num % 2 <= 1)
-                    {
-                        resultado = "decimal";
-                    }
-                }*/
             }
                 return resultado;           
         }

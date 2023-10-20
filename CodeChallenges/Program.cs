@@ -111,6 +111,10 @@ internal class Program
                 case "25":
                 challenge = new PedacosDeTorta();
                 challenge.Execute();
+                break; 
+                case "26":
+                challenge = new NumeroArray();
+                challenge.Execute();
                 break;
                 
 

@@ -44,7 +44,7 @@ input: ");
         {
             int resultado = 0;
             int vitorias = wins * 3;
-            int empates = draws++;
+            int empates = draws;
             int derrotas = losses - losses;
             resultado = vitorias + empates + derrotas;
             return resultado;

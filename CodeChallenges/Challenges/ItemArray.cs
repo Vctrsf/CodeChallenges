@@ -11,7 +11,11 @@ namespace CodeChallenges.Challenges
         public override void Execute()
         {
             MostraExplicacao();
-            var resultado = GetFirstValue(1);
+            object[] arr = new object[3];
+            arr[0] = "Marcia";
+            arr[1] = "Pedro";
+            arr[2] = "João";
+            var resultado = GetFirstValue(arr);
             Console.WriteLine(resultado);
         }
 
@@ -32,15 +36,10 @@ The first element in an array always has an index of 0.
 input: ");
         }
 
-        public static int GetFirstValue(int num)
+        public static object GetFirstValue(object[] arr)
         {
-            int[] numero = new int[4];
-            numero[1] = 1;
-            numero[2] = 2;
-            numero[3] = 3;
-
-            int resultado = numero[num];
-            return resultado;
+            return arr[0];
         }
     }
 }
+
